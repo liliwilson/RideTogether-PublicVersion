@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  RideTogether PublicVersion
+//  RideTogether
 //
-//  Created by lili wilson on 9/8/21.
+//  Created by lili wilson on 12/28/20.
 //
 
 import UIKit
