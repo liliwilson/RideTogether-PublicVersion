@@ -14,7 +14,7 @@ struct Level6: View {
     @State private var currWord: String = ""
    
     @State private var storedWords: [String] = []
-    @State private var validWords = ["retransmit", "overcommit", "pretermit", "presummit", "transmit", "resubmit", "recommit", "sublimit", "intromit", "intermit", "prelimit", "preadmit", "delimit", "readmit", "manumit", "thermit", "bevomit", "coadmit", "summit", "permit", "submit", "commit", "hermit", "dammit", "reemit", "limit", "admit", "remit", "vomit", "demit", "emit", "omit", "smit", "qwertyuiopasdfghjklzxcvbnmit"]
+    @State private var validWords = ["retransmit", "overcommit", "pretermit", "presummit", "transmit", "resubmit", "recommit", "sublimit", "intromit", "intermit", "prelimit", "preadmit", "delimit", "readmit", "manumit", "thermit", "bevomit", "coadmit", "summit", "permit", "submit", "commit", "hermit", "dammit", "reemit", "limit", "admit", "remit", "vomit", "demit", "emit", "omit", "smit"]
     
     @State private var points = 0
     
@@ -34,7 +34,7 @@ struct Level6: View {
                                 .foregroundColor(Color.white)
                                 .multilineTextAlignment(.center)
                         }
-                        Image("johnny3").resizable().aspectRatio(contentMode:.fit).padding(5)
+                        Image("j3").resizable().aspectRatio(contentMode:.fit).padding(5)
                     }
                     
                     
@@ -125,7 +125,7 @@ struct Level6Complete : View {
         ZStack {
             Rectangle().foregroundColor(Color.black.opacity(0.25)).ignoresSafeArea()
             VStack {
-                Text("You completed LEVEL 6. \n\n Ride together, go to MIT together!")
+                Text("You completed LEVEL 6.")
                     .multilineTextAlignment(.center).foregroundColor(Color.black)
                 
             }.padding()

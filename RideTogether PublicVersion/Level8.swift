@@ -28,7 +28,7 @@ struct Level8: View {
                                 .foregroundColor(Color.white)
                                 .multilineTextAlignment(.center)
                         }
-                        Image("johnny2").resizable().aspectRatio(contentMode:.fit).padding(.horizontal,20)
+                        Image("j2").resizable().aspectRatio(contentMode:.fit).padding(.horizontal,20)
                     }
                         
                     
@@ -80,7 +80,7 @@ struct Level8: View {
                     TextField("Enter a 4 letter word...", text: $answer).textFieldStyle(RoundedBorderTextFieldStyle()).padding([.horizontal],80)
                         
                     Button(action: {
-                        if self.answer.lowercased() == "bebo" {
+                        if self.answer.lowercased() == "answer" {
                             self.levels.levelsCompleted[4] = true
                             self.showComplete.toggle()
                         }
@@ -117,7 +117,7 @@ struct Level8Complete : View {
         ZStack {
             Rectangle().foregroundColor(Color.black.opacity(0.25)).ignoresSafeArea()
             VStack {
-                Text("You completed LEVEL 5. \n\n Ride together, accept Lili's nicknames together(?)")
+                Text("You completed LEVEL 5.")
                     .multilineTextAlignment(.center).foregroundColor(Color.black)
                 
             }.padding()

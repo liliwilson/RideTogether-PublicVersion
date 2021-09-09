@@ -30,7 +30,7 @@ struct Level2: View {
                                 .foregroundColor(Color.white)
                                 .multilineTextAlignment(.center)
                         }
-                        Image("johnny2").resizable().aspectRatio(contentMode:.fit).padding(5)
+                        Image("j2").resizable().aspectRatio(contentMode:.fit).padding(5)
                     }
                     
                     
@@ -72,7 +72,7 @@ struct Level2: View {
                     TextField("Enter a 4 letter word...", text: $answer).textFieldStyle(RoundedBorderTextFieldStyle()).padding([.horizontal],80)
                     
                     Button(action: {
-                        if self.answer.lowercased() == "date" {
+                        if self.answer.lowercased() == "soln" {
                             self.levels.levelsCompleted[1] = true
                             self.showComplete.toggle()
                         }
@@ -112,7 +112,7 @@ struct Level2Complete : View {
         ZStack {
             Rectangle().foregroundColor(Color.black.opacity(0.25)).ignoresSafeArea()
             VStack {
-                Text("You completed LEVEL 2. \n\n Ride together, \"watch\" movies together!")
+                Text("You completed LEVEL 2.")
                     .multilineTextAlignment(.center).foregroundColor(Color.black)
                 
             }.padding()
