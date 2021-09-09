@@ -6,11 +6,10 @@ From a programming perspective, Levels 1 and 6 are the most interesting and were
 
 Many of the puzzles will be unsolvable to people other than the friend that the game was designed for, due to the use of personal information in their solutions.
 
-Graphics credit goes to my younger sister Maia, who designed and drew all of the characters used in the app.
-
 # Gameplay
 
 
 # Credits
 All puzzles were designed entirely by me, and I worked on this game alone from December 2020 to March 2021. 
-My younger sister, Maia, designed the character graphics used across levels--thank you, Maia!
+
+Graphics credit goes to my younger sister Maia, who designed and drew all of the characters used in the app.
