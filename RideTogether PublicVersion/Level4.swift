@@ -32,7 +32,7 @@ struct Level4: View {
                             
                         }
                         
-                        Image("johnny1").resizable().aspectRatio(contentMode:.fit).padding(.horizontal,35).padding(.leading,5)
+                        Image("j1").resizable().aspectRatio(contentMode:.fit).padding(.horizontal,35).padding(.leading,5)
                     }
                    
                     
@@ -156,7 +156,7 @@ struct Level4Complete : View {
         ZStack {
             Rectangle().foregroundColor(Color.black.opacity(0.25)).ignoresSafeArea()
             VStack {
-                Text("You completed LEVEL 4. \n\n Ride together, exercise together! (and, do planks... *shudder*)")
+                Text("You completed LEVEL 4.")
                     .multilineTextAlignment(.center).foregroundColor(Color.black)
                 
             }.padding()

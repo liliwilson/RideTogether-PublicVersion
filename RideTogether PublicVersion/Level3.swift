@@ -33,7 +33,7 @@ struct Level3: View {
                             
                             self.complete.toggle()
                         }) {
-                            Image("johnny3").resizable().aspectRatio(contentMode:.fit).padding(5)
+                            Image("j3").resizable().aspectRatio(contentMode:.fit).padding(5)
                         }
                        
                     }
@@ -45,7 +45,7 @@ struct Level3: View {
                         VStack {
                             Image("kitkat").resizable().aspectRatio(contentMode:.fit).cornerRadius(20).padding(5).padding(.horizontal,20)
                             Text("xk3%y").foregroundColor(Color.black).padding(.bottom, 10)
-                            // these codes can either be useless or say "look at the bottom" or "click on the johnny"
+                            
                         }.background(Color.white.opacity(0.75)).cornerRadius(20).padding(15).padding(.leading,20)
                         
                         
