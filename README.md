@@ -7,7 +7,13 @@ From a programming perspective, Levels 1 and 6 are the most interesting and were
 Many of the puzzles will be unsolvable to people other than the friend that the game was designed for, due to the use of personal information in their solutions.
 
 # Gameplay
+<p align="center">
+<img src="rt_images/rt_home.png" width="207" height="448" /> <img src="rt_images/rt_lvlselect.png" width="207" height="448" /> <img src="rt_images/rt_lvl1.png" width="207" height="448" />
+</p>
 
+<p align="center">
+<img src="rt_images/rt_lvl4.png" width="207" height="448" /> <img src="rt_images/rt_lvl5.png" width="207" height="448" /> <img src="rt_images/rt_lvl6.png" width="207" height="448" />
+</p>
 
 # Credits
 All puzzles were designed entirely by me, and I worked on this game alone from December 2020 to March 2021. 
